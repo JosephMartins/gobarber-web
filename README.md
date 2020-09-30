@@ -22,7 +22,7 @@
 
 ## ✂ Sobre o projeto
 
-Esta api fornece  uma regras de negocio para organizar encontros entre barbeiros e clientes.
+Esta aplicação fornece as insterfaces para o usuario utilizar em seu trabalho. Prestando serviços de barbearia.
 
 Os clientes podem escolher o melhor horário disponível para eles.
 
