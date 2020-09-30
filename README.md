@@ -35,7 +35,10 @@ Para ver a api que serve esse serviço, clique aqui: <a href="https://github.com
 
 - ReactJS
 - Styled Components
+- Unform
+- Yup
 - Axios
+
 
 
 ## 💻 Como Utilizar
