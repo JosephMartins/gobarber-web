@@ -28,7 +28,7 @@ Os clientes podem escolher o melhor horário disponível para eles.
 
 Os prestadores podem ver todos os seus agendamentos, gerenciar os horários e também ver se um cliente cancelou a programação.
 
-Para ver o serviço web que consome esta API, clique aqui: <a href="https://github.com/JosephMartins/gobarber-web">GoBarber-Web</a>
+Para ver a api que serve esse serviço, clique aqui: <a href="https://github.com/JosephMartins/gobarber-web">Gobarber-API</a>
 
 
 ## 🚀 Tecnologias
@@ -44,17 +44,14 @@ Para ver o serviço web que consome esta API, clique aqui: <a href="https://gith
 Clone o projeto:
 Git clone https://github.com/JosephMartins/gobarber-api
 
-Crie um banco de dados com postgres chamado:
-Gobarber
-
-Entre na pasta via linha de comando e execute:
-yarn typeorm migration:run
-
-Em seguida execute: 
+Rode o comando
 yarn ou npm install
 
 Em seguida execute: 
-yarn dev:server
+yarn start ou npm start
+
+Lembre-se de está executando a API, caso esteja em ambiente de desenvolvimento.
+
 ```
 
 ## 🤔 Como contribuir
