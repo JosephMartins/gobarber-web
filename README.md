@@ -1,44 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img src="https://github.com/JosephMartins/gobarber-web/blob/master/src/assets/logo.svg" alt="Logo"><br /><br />
+  <h3 align="center">  
+  GoBarber - A maneira certa de cortar o seu cabelo.
+</h3>
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="#Sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Como Utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  
+</p>
 
-In the project directory, you can run:
+<!-- <p id="insomniaButton" align="center">
 
-### `yarn start`
+  <a href="https://insomnia.rest/run" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p> -->
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- <img alt="Layout" src=".github/mockup.png">-->
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## ✌🏼 Sobre o projeto
 
-### `yarn test`
+Esta api fornece  uma regras de negocio para organizar encontros entre barbeiros e clientes.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Os clientes podem escolher o melhor horário disponível para eles.
 
-### `yarn build`
+Os prestadores podem ver todos os seus agendamentos, gerenciar os horários e também ver se um cliente cancelou a programação.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para ver o serviço web que consome esta API, clique aqui: <a href="https://github.com/JosephMartins/gobarber-web">GoBarber-Web</a>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Tecnologias
 
-### `yarn eject`
+- ReactJS
+- Styled Components
+- Axios
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Como Utilizar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+Clone o projeto:
+Git clone https://github.com/JosephMartins/gobarber-api
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Crie um banco de dados com postgres chamado:
+Gobarber
 
-## Learn More
+Entre na pasta via linha de comando e execute:
+yarn typeorm migration:run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Em seguida execute: 
+yarn ou npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Em seguida execute: 
+yarn dev:server
+```
+
+## 🤔 Como contribuir
+
+
+```
+-
+```
+
+Criado com 💜&nbsp;  por Joseph  Martins 👋
